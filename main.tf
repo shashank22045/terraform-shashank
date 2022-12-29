@@ -1,8 +1,11 @@
-provider "aws" {
-  access_key = "AKIA2TOUPOPAIK77MPGH"
-  secret_key = "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"
-  region     = "ca-central-1"
+terraform {
+  required_providers {
+    aws = {
+    source  = "hashicorp/aws"
+    version = "~> 3.27"
+    }
+  }
+
+  required_version = ">= 0.14.9"
 }
-
-
 
