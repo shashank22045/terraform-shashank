@@ -34,3 +34,5 @@
 6. You can destory the resource using below command :
 
         terraform destroy --auto-approve
+        
+        replace the exisitng pipeline with destroy.tf lines and run it will destroy the creating RDS 
